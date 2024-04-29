@@ -12,18 +12,18 @@ export function JellyModels(props) {
     <group {...props} dispose={null}>
 
       <Float 
-       speed={2} // Slower speed for a more gentle effect
-       rotationIntensity={-1} // Keeping your original rotation intensity
-       floatIntensity={3} // Increased intensity for a more noticeable effect
+       speed={2} 
+       rotationIntensity={-1} 
+       floatIntensity={3} 
        floatingRange={[.2, .22]} 
       >
       <mesh geometry={nodes.JellyFish006.geometry} material={materials['Material.001']} position={[-0.285, 3.715, 5.023]} rotation={[-Math.PI, 1.134, -Math.PI]} scale={0} />
       </Float>
 
       <Float 
-       speed={2} // Slower speed for a more gentle effect
-       rotationIntensity={1} // Keeping your original rotation intensity
-       floatIntensity={2} // Increased intensity for a more noticeable effect
+       speed={2} 
+       rotationIntensity={1}
+       floatIntensity={2}
        floatingRange={[.2, .22]} 
       >
 
@@ -31,9 +31,9 @@ export function JellyModels(props) {
       </Float>
    
       <Float 
-       speed={2} // Slower speed for a more gentle effect
-       rotationIntensity={2} // Keeping your original rotation intensity
-       floatIntensity={3} // Increased intensity for a more noticeable effect
+       speed={2} 
+       rotationIntensity={2}
+       floatIntensity={3} 
        floatingRange={[.2, .22]} 
       >
       <mesh geometry={nodes.JellyFish003.geometry} material={materials['Material.001']} position={[-1.693, 7.126, 3.587]} rotation={[0, 0.436, 0]} scale={0.001} />
@@ -41,9 +41,9 @@ export function JellyModels(props) {
 
 
       <Float 
-       speed={2} // Slower speed for a more gentle effect
-       rotationIntensity={-0.1} // Keeping your original rotation intensity
-       floatIntensity={0.1} // Increased intensity for a more noticeable effect
+       speed={2} 
+       rotationIntensity={-0.1}
+       floatIntensity={0.1}
        floatingRange={[.2, .22]} 
       >
       <mesh geometry={nodes.JellyFish006.geometry} material={materials['Material.001']} position={[-1.285, 4.715, 7.023]} rotation={[-Math.PI, 1.134, -Math.PI]} scale={0} />
@@ -51,9 +51,9 @@ export function JellyModels(props) {
 
 
       <Float 
-       speed={1.5} // Slower speed for a more gentle effect
-       rotationIntensity={2} // Keeping your original rotation intensity
-       floatIntensity={3} // Increased intensity for a more noticeable effect
+       speed={1.5}
+       rotationIntensity={2}
+       floatIntensity={3}
        floatingRange={[1, 2]} 
       >
       <mesh geometry={nodes.JellyFish004.geometry} material={materials['Material.001']} position={[3.897, 3.217, 4.019]} rotation={[-0.046, 0.435, 0.045]} scale={0.001} />
@@ -61,9 +61,9 @@ export function JellyModels(props) {
 
 
       <Float 
-       speed={1.5} // Slower speed for a more gentle effect
-       rotationIntensity={2} // Keeping your original rotation intensity
-       floatIntensity={1} // Increased intensity for a more noticeable effect
+       speed={1.5}
+       rotationIntensity={2}
+       floatIntensity={1}
        floatingRange={[1, 2]} 
       >
       <mesh geometry={nodes.JellyFish003.geometry} material={materials['Material.001']} position={[-5.693, 4.126, 1.587]} rotation={[0, 0.436, 0]} scale={0.001} />

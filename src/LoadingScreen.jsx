@@ -20,8 +20,8 @@ const LoadingScreenStyled = styled.div`
   z-index: 2;
   display: grid;
   place-items: center;
-  grid-template-rows: auto auto 1fr; // Corrected syntax, adjust 'auto' and '1fr' as needed
-  gap: 0.1px; // Use a positive value or reduce if elements are too far apart
+  grid-template-rows: auto auto 1fr; 
+  gap: 0.1px;
   background-color: #b8c6db;
   background-image: linear-gradient(0deg, #f2f9ff 0%, #f5f7fa 74%);
   opacity: 1;
@@ -40,14 +40,6 @@ padding-top:320px;
   }
 `;
 
-const SubTitle = styled.h4`
-  font-size: 1rem;
-  font-weight: 90;
-  color: #1a202c;
-  @media (max-width: 768px) {
-    font-size: 20px;
-  }
-`;
 
 const ProgressBarContainer = styled.div`
   width: 50%;

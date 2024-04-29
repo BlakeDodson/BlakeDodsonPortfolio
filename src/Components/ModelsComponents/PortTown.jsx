@@ -34,9 +34,9 @@ export function PortTown(props) {
 
 
       <Float
-          speed={4} // Slower speed for a more gentle effect
-          rotationIntensity={-0.1} // Keeping your original rotation intensity
-          floatIntensity={0.1} // Increased intensity for a more noticeable effect
+          speed={4}
+          rotationIntensity={-0.1} 
+          floatIntensity={0.1} 
           floatingRange={[.2, .22]} 
         >
 
@@ -60,9 +60,9 @@ export function PortTown(props) {
 
 
       <Float
-          speed={2} // Slower speed for a more gentle effect
-          rotationIntensity={-0.1} // Keeping your original rotation intensity
-          floatIntensity={0.1} // Increased intensity for a more noticeable effect
+          speed={2} 
+          rotationIntensity={-0.1} 
+          floatIntensity={0.1}
           floatingRange={[.2, .22]} 
         >
 
@@ -89,9 +89,9 @@ export function PortTown(props) {
       </Float>
 
       <Float
-          speed={2} // Slower speed for a more gentle effect
-          rotationIntensity={-0.1} // Keeping your original rotation intensity
-          floatIntensity={0.1} // Increased intensity for a more noticeable effect
+          speed={2}
+          rotationIntensity={-0.1} 
+          floatIntensity={0.1} 
           floatingRange={[.2, .22]} 
         >
       <group position={[-30.482, -0.075, -0.299]} rotation={[0, -0.777, 0]}>
@@ -114,9 +114,9 @@ export function PortTown(props) {
 
 
       <Float
-          speed={2} // Slower speed for a more gentle effect
-          rotationIntensity={-0.1} // Keeping your original rotation intensity
-          floatIntensity={0.1} // Increased intensity for a more noticeable effect
+          speed={2} 
+          rotationIntensity={-0.1} 
+          floatIntensity={0.1}
           floatingRange={[.2, .22]} 
         >
       <group position={[-10.619, -0.17, -8.158]} rotation={[0, -Math.PI / 2, 0]}>
@@ -138,9 +138,9 @@ export function PortTown(props) {
 
 
       <Float
-          speed={2} // Slower speed for a more gentle effect
-          rotationIntensity={-0.1} // Keeping your original rotation intensity
-          floatIntensity={0.1} // Increased intensity for a more noticeable effect
+          speed={2}
+          rotationIntensity={-0.1}
+          floatIntensity={0.1} 
           floatingRange={[.2, .22]} 
         >
 
@@ -191,9 +191,9 @@ export function PortTown(props) {
 
 
       <Float
-          speed={2} // Slower speed for a more gentle effect
-          rotationIntensity={-0.1} // Keeping your original rotation intensity
-          floatIntensity={0.1} // Increased intensity for a more noticeable effect
+          speed={2} 
+          rotationIntensity={-0.1}
+          floatIntensity={0.1}
           floatingRange={[.2, .22]} 
         >
       <group position={[-11.125, -0.321, -21.54]} rotation={[0, -1.502, 0.066]}>

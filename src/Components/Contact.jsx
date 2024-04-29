@@ -1,7 +1,7 @@
 import React, { forwardRef, useRef, useState} from "react";
 import styled from "styled-components";
 import {Canvas } from "@react-three/fiber";
-import { Environment, OrbitControls } from "@react-three/drei";
+import { Environment } from "@react-three/drei";
 import { motion } from 'framer-motion';
 
 // Email hookup //
@@ -18,7 +18,7 @@ const Section = styled(motion.div)`
   justify-content: center;
   height: 100vh;
   background: linear-gradient(to bottom, #0D1D27 30%, #000000 100%);
-  z-index: 1; // Ensure this section does not get overlaid by others accidentally
+  z-index: 1;
 `;
 
 const Container = styled.div`
@@ -27,11 +27,11 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   height: 100vh;
-  position: relative; // Added for better control over stacking
+  position: relative;
 
   @media (max-width: 768px) {
     flex-direction: column;
-    height: auto; // Allows the section to expand as needed
+    height: auto; 
   }
 `;
 

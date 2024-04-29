@@ -1,12 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 
-// Breakpoints for responsive design
+// use for breakpoints small
 const breakpoints = {
-  mobile: '480px', // Adjust as needed
+  mobile: '480px', 
 };
 
-// Styled-components with responsive adjustments
+// Styled-components 
 const FooterContainer = styled.footer`
   display: flex;
   justify-content: space-between;

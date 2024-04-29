@@ -108,7 +108,7 @@ const InfoGroup1 = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(to bottom, #0f5e9c 15%, rgba(255,255,255,0) 100%), url('/img/ClownFish.png') no-repeat center center;  // Example background image
+  background: linear-gradient(to bottom, #0f5e9c 15%, rgba(255,255,255,0) 100%), url('/img/ClownFish.png') no-repeat center center; 
   background-size: cover;
   border: solid white 1px;
   box-sizing: border-box;
