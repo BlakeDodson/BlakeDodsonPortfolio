@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import { Canvas, useFrame  } from "@react-three/fiber";
 import { Environment } from "@react-three/drei"; 
+// comment
 
 // Buttons// 
 import Waterbutton from "./ButtonComponents/Waterbutton";
